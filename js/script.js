@@ -40,7 +40,7 @@ function calculate () {
   }
  
   // output facttorial of user number to user
-  document.getElementById('display-multiply').innerHTML = display
+  document.getElementById('display-factorial').innerHTML = display
 
 }
  

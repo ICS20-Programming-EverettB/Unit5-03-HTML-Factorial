@@ -4,22 +4,22 @@
     
     <!-- meta data-->
     <meta charset="utf-8" />
-    <meta name="description" content="multiplication calculator" />
+    <meta name="description" content="Factorial calculator" />
     <meta name="keywords" content="immaculata, ics2o" />
     <meta name="author" content="Everett" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
     <!-- favicon-->
-    <link rel="multiply symbol" sizes="180x180" href="./img/multiplyfavacon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="./img/multiplyfavacon.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="./img/multiplyfavacon.png" />   
+    <link rel="multiply symbol" sizes="180x180" href="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_2_green-512.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="v" />
+    <link rel="icon" type="image/png" sizes="16x16" href="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_2_green-512.png" />   
     
     <!--stylesheet-->
     <link rel="manifest" href="./fav_index/site.webmanifest" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
-   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue_grey-teal.min.css" />
+   <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.light_green-green.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>multiplier calculator with for loop </title>
+    <title>Factorial Calculator with While loops </title>
   </head>
   <body>
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
@@ -27,40 +27,40 @@
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
       <header class="mdl-layout__header">
         <div class="mdl-layout__header-row">
-          <span class="mdl-layout-title">multiplier calculator with for loop </span>
+          <span class="mdl-layout-title">Factorial Calculator with while loop </span>
         </div>
       </header>
       <main class="mdl-layout__content">
         <center>
           
         <!-- title and image-->
-         <h1>Multiplier Calculator With For Loop</h1>
-        <img src="./img/multiplysymbol.png" alt="Multiply symbol image" width="333" height="333">
+         <h1>Factorial Calculator With While Loops</h1>
+        <img src="https://cdn3.iconfinder.com/data/icons/letters-and-numbers-1/32/number_7_green-512.png" alt="7 number image" width="333" height="333">
           
-        <!-- User input interger num1 texfield -->
+        <!-- User input positive integer texfield -->
         <form action="#">
-          <p>Input Integer:</p>
+          <p>Input Positive Integer:</p>
           <div class="mdl-textfield mdl-js-textfield">
             <input 
               class="mdl-textfield__input"
-              type="number" 
+              type="number" step=1 min=0 
               id="num"
             />
-            <label class="mdl-textfield__label" for="num">Intiger</label>
+            <label class="mdl-textfield__label" for="num">Integer</label>
             <span class="mdl-textfield__error">Input is not valid</span>
           </div>
         </form>
           
-        <!-- button connected to js to display calculation of js file (multiplication)   -->
+        <!-- button connected to js to display calculation of js file (positive number factiorial)   -->
         <button
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="calculate()"
+          onclick="calculate ()"
         >
-          Display
+          Display Factorial 
         </button>
         <br />
         <p>
-            <div id="display-multiply"></div>
+            <div id="display-factorial"></div>
           </center>
           </div>
         </p>
